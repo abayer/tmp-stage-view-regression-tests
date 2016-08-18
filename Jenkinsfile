@@ -10,4 +10,5 @@ try {
     banana kumquat
 } catch (Exception e) {
     echo "Awwww, ${e} happened."
+    throw e
 }
