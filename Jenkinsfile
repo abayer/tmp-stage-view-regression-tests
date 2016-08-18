@@ -1,10 +1,10 @@
 stage "pass"
-echo "I'm passing"
+sleep 30
+echo "I'm passing and sleeping for 30 seconds."
 
-stage("block-scoped-pass") {
-    echo "I'm in a block."
-}
-
+stage "pass again"
+sleep 40
+echo "I'm passing and sleeping for 40 seconds"
 
 stage "and now keep passing"
-echo "still passing"
+echo "still passing no sleeping"
