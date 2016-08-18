@@ -14,7 +14,10 @@ parallel(["foo": {
               echo "Bar slept a bit"
           },
           "baz": {
-              error "Baz hates you and everything to do with you."
+              catchError { 
+                  error "Baz hates you and everything to do with you."
+              }
+              echo "But we will deal with it."
           }])
 
 
