@@ -6,4 +6,4 @@ echo "look, unstable"
 currentBuild.result = "UNSTABLE"
 
 stage "and now keep passing"
-error "still passing"
+echo "still passing"
