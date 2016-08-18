@@ -1,10 +1,10 @@
 stage "pass"
-sleep 30
-echo "I'm passing and sleeping for 30 seconds."
+echo "I'm passing"
 
 stage "pass again"
-sleep 40
-echo "I'm passing and sleeping for 40 seconds"
+sleep 10
+echo "I'm passing and sleeping for 10 seconds"
 
-stage "and now keep passing"
-echo "still passing no sleeping"
+stage "and now crap the bed"
+banana kumquat
+
