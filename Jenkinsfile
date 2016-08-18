@@ -1,10 +1,10 @@
 stage "pass"
 echo "I'm passing"
 
-stage "catch-an-error"
-catchError {
-   error "You won't see me?"
+stage("block-scoped-pass") {
+    echo "I'm in a block."
 }
+
 
 stage "and now keep passing"
 echo "still passing"
